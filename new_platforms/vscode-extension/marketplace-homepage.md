@@ -12,7 +12,7 @@ Alternatively, you can run the extension from this repository by following these
 
 1. Clone this repository `git clone --recursive https://github.com/microsoft/openenclave`
 1. Navigate to `new_platforms\vscode-extension` in the cloned folder.
-1. Run npm to install the dependencies: `npm install` (see the [requirements](#Requirements) section for npm installation link)
+1. Run npm to install the dependencies: `npm install` (see the [requirements](#Requirements) section for npm installation link).
 1. Start VSCode: `code .`
 1. Start the extension using `F5`
 
@@ -46,8 +46,8 @@ The build task will do the actual compiling and linking.
 
 1. **CTRL-Shift-P**
 1. Select `Tasks: Run Task`
-1. Select `Configure for QEMU (ARMV7-A | AARCH64/ARMv8-A)`
-1. Select `Build for QEMU (ARMV7-A | AARCH64/ARMv8-A)`
+1. Select `Configure for QEMU (ARMv7-A | AARCH64/ARMv8-A)`
+1. Select `Build for QEMU (ARMv7-A | AARCH64/ARMv8-A)`
 
 For an Azure IoT Edge container project, containers are used to configure and build.  The build task in a
 container project will invoke docker and leverage project dockerfiles.  The container can be built by:
