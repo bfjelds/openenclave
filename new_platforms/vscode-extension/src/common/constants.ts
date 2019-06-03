@@ -14,20 +14,20 @@ export class Constants {
     // Github repo and branch for SDK
     //
     public static openEnclaveRepo = "https://github.com/microsoft/openenclave.git";
-    public static openEnclaveBranch = "#master";
-    public static openEnclaveSdkVersion = "1.1.0";
+    public static openEnclaveBranch = "#feature.new_platforms";
+    public static openEnclaveSdkVersion = "1.0.10";
     //
     // Azure storage info for DevKit
     //
     public static DevKitBlobAccount = "";
     public static DevKitBlobContainerName = "";
     public static DevKitBlobName = "";
-    public static DevKitVersion = "1.1.0";
+    public static DevKitVersion = "1.0.10";
 
     //
     // System requirements version ... update this when the requirements change
     //
-    public static requirementsVersion =  "1.1.0";
+    public static requirementsVersion =  "1.0.10";
 
     //
     // Folder and file names
