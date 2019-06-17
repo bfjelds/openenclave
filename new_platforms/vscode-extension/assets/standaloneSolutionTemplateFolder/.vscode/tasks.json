@@ -181,7 +181,7 @@
             ]
         },
         {
-            "label": "Configure for Grapeboard (LS1012)",
+            "label": "Configure for TrustBoxEdge (LS1012a)",
             "type": "process",
             "command": "cmake",
             "options": {
@@ -199,7 +199,7 @@
             "problemMatcher": []
         },
         {
-            "label": "Build for Grapeboard (LS1012)",
+            "label": "Build for TrustBoxEdge (LS1012a)",
             "type": "process",
             "command": "make",
             "options": {
@@ -209,7 +209,7 @@
                 "-j"
             ],
             "problemMatcher": [],
-            "dependsOn": [ "Configure for Grapeboard (LS1012)" ]
+            "dependsOn": [ "Configure for TrustBoxEdge (LS1012a)" ]
         }
     ]
 }
