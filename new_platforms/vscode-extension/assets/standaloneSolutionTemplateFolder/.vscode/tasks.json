@@ -15,6 +15,7 @@
                 "-DOE_TOOLCHAIN_PREFIX=arm-linux-gnueabihf-",
                 "-DCMAKE_TOOLCHAIN_FILE=[[sdk-folder]]/new_platforms/cmake/linux-arm-v6.cmake",
                 "-DCMAKE_BUILD_TYPE=Debug",
+                "-DCMAKE_C_FLAGS=-no-pie",
                 "[[solution-folder]]"
             ],
             "problemMatcher": []
@@ -46,6 +47,7 @@
                 "-DOE_TOOLCHAIN_PREFIX=aarch64-linux-gnu-",
                 "-DCMAKE_TOOLCHAIN_FILE=[[sdk-folder]]/new_platforms/cmake/linux-aarch64-v6.cmake",
                 "-DCMAKE_BUILD_TYPE=Debug",
+                "-DCMAKE_C_FLAGS=-no-pie",
                 "[[solution-folder]]"
             ],
             "problemMatcher": []
