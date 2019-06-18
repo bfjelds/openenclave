@@ -1,11 +1,11 @@
 {
     "azure-iot-edge.defaultPlatform": {
-        "platform": "ls1012",
+        "platform": "trustboxedge-ls1012a",
         "alias": null
       },
       "azure-iot-edge.platforms": {
         "arm32v7-qemu": [],
         "aarch64-qemu": [],
-        "trustboxedge-ls1012": [],
+        "trustboxedge-ls1012a": [],
     }
 }
